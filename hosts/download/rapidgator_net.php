@@ -7,7 +7,7 @@ if (!defined('RAPIDLEECH')) {
 
 class rapidgator_net extends DownloadClass {
 	private $baseUrl, $link, $cJar, $page, $cookie, $referer, $DLregexp;
-	public function Download($link) {
+	public function Download($link) {https://rapidgator.net/file/429ae671e4aa147e82e5f409a186b22c/Orca.1977.720p.BluRay.mp4.html
 		$this->baseUrl = 'https://rapidgator.net/';
 
 		$link = parse_url($link);
